@@ -44,7 +44,7 @@ class Car extends VehicleModule {
 
 let myCar = new Car('Honda', 'white-sedan', '2013', 'white', 195000)
 myCar.start()
-myCar.loadPassenger(5)
+myCar.loadPassenger(4)
 myCar.stop()
 myCar.checkService()
 console.log(myCar)
